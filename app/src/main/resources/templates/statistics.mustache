@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Статистика</title>
+    <link rel="icon" href="../static/img/favicon.png">
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css" >
+    <!-- style CSS -->
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/forStatistic.css">
+</head>
+
+<body>
+<!--::header part start::-->
+<header class="main_menu home_menu">
+
+</header>
+<!-- Header part end-->
+
+<!-- banner part start-->
+<section class="banner_part">
+    <div class="container">
+        <div class="inner">
+          <div class="inner-left">
+            <div class="banner_text">
+                 <div class="forTabNumOne">
+                    <table cellspacing="0" cellpadding="12" width="500">
+                        <tr>
+                          <th align="center" >{{owners}}</th> <th align="center" > </th>
+                          <th align="center" >{{guests}}</th>
+                        </tr>
+                        <tr height="50">
+                          <td valign="middle" style="background: green; color: #ffffff">{{ownersWin}} %</td>
+                          <td valign="middle" style="background: gray; color: white">{{graw}} %</td>
+                          <td valign="middle" style="background: red; color: white">{{guestsWin}} %</td>
+                        </tr>
+                    </table>
+                 </div>
+
+                 <div class="forTabNumTwo">
+                   <h4>Результат последних 6 матчей</h4 >
+                   <table border="1" cellspacing="0" cellpadding="12" width="500">
+                       <tr>
+                         <th valign="middle" align="center" >{{owners}}</th>
+                           {{#secTabOwners}}
+                           <th valign="middle" align="center" >{{.}}</th>
+                           {{/secTabOwners}}
+                       </tr>
+                       <tr>
+                         <th valign="middle" align="center" >{{guests}}</th>
+                         {{#secTabGuests}}
+                             <th valign="middle" align="center" >{{.}}</th>
+                         {{/secTabGuests}}
+                       </tr>
+
+                   </table>
+                 </div>
+
+                 <div class="forTabNumThree">
+                    <table class="bigTable" border="4" cellspacing="0" cellpadding="10">
+                      <col width="60%">
+                      <col width="20%">
+                      <col width="20%">
+                      <tr>
+                        <th align="center" > </th>
+                        <th align="center" >{{owners}}</th>
+                        <th align="center" >{{guests}}</th>
+                      </tr>
+                      <tr>
+                        <th valign="middle" align="center" >Матчи</th>
+                        <th valign="middle" align="center" >{{oMatches}}</th>
+                        <th valign="middle" align="center" >{{gMatches}}</th>
+                      </tr>
+                      <tr>
+                        <th valign="middle" align="center" >Победы</th>
+                        <th valign="middle" align="center" >{{oWins}}</th>
+                        <th valign="middle" align="center" >{{gWins}}</th>
+                      </tr>
+                      <tr>
+                        <th valign="middle" align="center" >Ничьи</th>
+                        <th valign="middle" align="center" >{{oDraws}}</th>
+                        <th valign="middle" align="center" >{{gDraws}}</th>
+                      </tr>
+                      <tr>
+                        <th valign="middle" align="center" >Поражения</th>
+                        <th valign="middle" align="center" >{{oLoses}}</th>
+                        <th valign="middle" align="center" >{{gLoses}}</th>
+                      </tr>
+                      <tr>
+                        <th valign="middle" align="center" >Забито</th>
+                        <th valign="middle" align="center" >{{oGoals}}</th>
+                        <th valign="middle" align="center" >{{gGoals}}</th>
+                      </tr>
+                      <tr>
+                        <th valign="middle" align="center" >Пропущено</th>
+                        <th valign="middle" align="center" >{{oMisseds}}</th>
+                        <th valign="middle" align="center" >{{gMisseds}}</th>
+                      </tr>
+                    </table>
+                 </div>
+             </div>
+          </div>
+          <div class="inner-right">
+
+          </div>
+        </div>
+        </div>
+    </div>
+</section>
+<!-- banner part start-->
+
+
+
+<!-- jquery plugins here-->
+<script src="js/jquery-1.12.1.min.js"></script>
+<!-- popper js -->
+<script src="js/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- magnific-popup js -->
+<script src="js/jquery.magnific-popup.js"></script>
+<!-- swiper js -->
+<script src="js/swiper.min.js"></script>
+<!-- masonry js -->
+<script src="js/masonry.pkgd.js"></script>
+<!-- owl.carousel js -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- slick js -->
+<script src="js/slick.min.js"></script>
+<!-- gijgo js -->
+<script src="js/gijgo.min.js"></script>
+<!-- nice-select js -->
+<script src="js/jquery.nice-select.min.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+
+
+.inner {
+  width: 100%;
+  height: 800px;
+  padding-top: 20px;
+}
+.inner-left {
+  float: left;
+  width: 500px;
+  height: 950px;
+}
+
+.inner-right {
+  float: right;
+  width: 300px;
+  height: 950px;
+}
+
+.forTabNumOne {
+  display: table;
+  width: 100%;
+  height: 150px;
+}
+
+
+
+.forTabNumTwo {
+  display: table;
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
+}
+
+.forTabNumThree {
+  display: table;
+  width: 100%;
+  height: 400px;
+  padding-top: 20px;
+}
+
+.forTabNumFour {
+  padding-top: 50px;
+  display: table;
+  width: 100%;
+  height: 200px;
+  color: black;
+  text-decoration-color: black;
+}
+
+.forTabNumFour h4{
+  font-weight: 900;
+  color: #000000;
+}
+
+.forTabNumFive {
+  padding-top: 20px;
+  display: table;
+  width: 100%;
+  height: 200px;
+}
+
+.forTabNumFive h4{
+  font-weight: 900;
+  color: #000000;
+}
+
+.forTabNumSix {
+  padding-top: 20px;
+  width: 100%;
+  height: 300px;
+}
+
+/* внутри 3 таблицы ----------------------------------------------*/
+.bigTable {
+  width: 500px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  border-radius: 10px;
+  border-spacing: 0;
+  text-align: center;
+  background: #f5ffff;
+  border-collapse: collapse;
+}
+
+
+
+/*----------------------------------------------------------------*/
